@@ -10,10 +10,5 @@ select pxp.f_insert_tgui ('Administración de datos personales', 'Administració
 select pxp.f_insert_tgui ('Datos Personales', 'Datos Personales', 'DATPER', 'si', 2, 'sis_admin_sico/vista/datos_personales/DatosPersonales.php', 3, '', 'DatFuncionario', 'SICO');
 select pxp.f_insert_tgui ('configuración', 'configuración', 'CONFSICO', 'si', 2, '', 2, '', '', 'SICO');
 
-select pxp.f_insert_testructura_gui ('SICO', 'SISTEMA');
-select pxp.f_insert_testructura_gui ('ADM_DAT_PER', 'SICO');
-select pxp.f_insert_testructura_gui ('DATPER', 'ADM_DAT_PER');
-select pxp.f_insert_testructura_gui ('CONFSICO', 'SICO');
-
 /********************************************F-DAT-YMR-SICO-0-27/07/2020**********************************************/
 
